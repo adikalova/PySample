@@ -1,7 +1,13 @@
-from random import*
+import random
 
-x = random()
+# 1
+x = random.random()
 print(x)
-
-a = randint(1, 100)
+#2
+a = random.randint(1, 100)
 print(a)
+#3
+
+greetings = ['Hello','Hi', 'Good morning', 'Hey!']
+value = random.choice(greetings)
+print(value + ',Nastya')
